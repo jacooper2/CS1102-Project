@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./reflections.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work Sans:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="reflections">
+      <div class="cs1102-project-topic1">
+        CS1102 PROJECT TOPIC - THE DEVELOPMENT OF NEURAL NETWORKS
+      </div>
+      <div class="reflections-child"></div>
+      <button class="button6">
+        <div class="button7">Reflections</div>
+      </button>
+      <button class="button8" id="button1">
+        <div class="button9">Try It Out</div>
+      </button>
+      <button class="button10" id="button2">
+        <div class="button7">Home</div>
+      </button>
+      <img class="cicles-icon1" alt="" src="./public/cicles.svg" />
+    </div>
+
+    <script>
+      var button1 = document.getElementById("button1");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./try-it-out.html";
+        });
+      }
+      
+      var button2 = document.getElementById("button2");
+      if (button2) {
+        button2.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>
